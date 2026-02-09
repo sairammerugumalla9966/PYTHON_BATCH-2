@@ -39,7 +39,7 @@ for i in range(1,5): # 4 times
     print()
 print()
 
-'''
+
 
 # Inverted right angle triangle 
 
@@ -48,5 +48,12 @@ for i in range(5,0,-1): # 4 times
         print(" * ",end=" ")
     print()
 
+'''
 
-
+n=4
+for i in range(1,n+1): 
+    for j in range(n-i):
+        print(" ",end=" ")
+    for k in range(i):
+        print("* ",end=" ")
+    print()
