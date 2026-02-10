@@ -182,9 +182,55 @@
 
 
 
-number = input("Enter a Number :")
+# number = input("Enter a Number :")
 
-if len(number) == 3:
-    print(number, "It is a 3 digit number")
-else:
-    print(number, "It is not a 3 digit number")
+# if len(number) == 3:
+#     print(number, "It is a 3 digit number")
+# else:
+#     print(number, "It is not a 3 digit number")
+
+
+# num = int(input("Enter a number: "))
+# count = 0
+
+# for i in range(1, num+1):
+#     if num % i == 0:
+#         count += 1
+# if count == 2:
+#     print("It is a prime number", num)
+# else: 
+#     print("It is not a prime number")
+
+# num = int(input("Enter a number:"))
+# fac = 0
+# i = 1
+# while i <= num:
+#     fac =fac + i
+#     i = i + 1
+
+# print("Number", num, "Factorial: ", fac)
+
+
+# num = int(input("Enter a number to reverse: "))
+# rev  = 0 
+# while num > 0:
+#     rem = num % 10
+#     rev = rev * 10 + rem
+#     num = num // 10
+# print(rev)
+
+
+# num = int(input("Enter a number:"))
+# fac = 1
+# i = 1
+# while i <= num:
+#     fac = fac * i
+#     i += 1
+# print(fac)
+
+def samplefunction():
+    a = 100
+    b = 200
+    c = 300
+    return c 
+samplefunction

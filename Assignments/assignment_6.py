@@ -75,7 +75,13 @@ print(count)
 
 # 6.Write a program to reverse a number using a while loop.
 
-num = int(input("Enter a number to reverse: ")) # doubt
+num = int(input("Enter a number to reverse: "))
+rev  = 0 
+while num > 0:
+    rem = num % 10
+    rev = rev * 10 + rem
+    num = num // 10
+print(rev)
 
 # 7.Write a program to print the following pattern using nested loops:
 
@@ -91,4 +97,25 @@ for i in range(1,6):
     print()
 print()
 
+# 8.Write a program to check whether a given number is a prime number using loops.
 
+num = int(input("Enter a number: "))
+count = 0
+
+for i in range(1, num+1):
+    if num % i == 0:
+        count += 1
+if count == 2:
+    print("It is a prime number", num)
+else: 
+    print("It is not a prime number")
+
+# 10.Write a program to find the factorial of a given number using a loop.
+
+num = int(input("Enter a number:"))
+fac = 1
+i = 1
+while i <= num:
+    fac = fac * i
+    i += 1
+print(fac)
