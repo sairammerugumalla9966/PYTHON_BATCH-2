@@ -17,7 +17,6 @@ obj.intro()
 obj.Timepass()
 
 
-
 class Instance_method:
 
     def __init__(self,name):
@@ -51,10 +50,11 @@ Class_method.Timepass()
 class Static_method:
 
     @staticmethod
-    def Timepass(name):
+    def Timepass():
+        name="Meenakshi"
         print(name)
 
-Static_method.Timepass("Mairah")
+Static_method.Timepass()
 
 
 
