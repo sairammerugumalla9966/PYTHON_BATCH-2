@@ -228,9 +228,10 @@
 #     i += 1
 # print(fac)
 
-def samplefunction():
-    a = 100
-    b = 200
-    c = 300
-    return c 
-samplefunction
+# def samplefunction():
+#     a = 100
+#     b = 200
+#     c = 300
+#     return c 
+# samplefunction
+
