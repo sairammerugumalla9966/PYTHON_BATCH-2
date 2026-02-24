@@ -132,6 +132,7 @@ for i in range(1 , 5):
         print("*",end=" ")
     print()
 
+
 # 7.Write a python program to print a complete diamond shape using stars (*) with nested loops.
 
 #    *
@@ -144,18 +145,33 @@ for i in range(1 , 5):
 #   ***
 #    *
 
-# n = 5  
+n = 5 
+for i in range(1, n+1):
+    for spaces in range(n-i):
+        print(" ", end="")
+    for j in range(i):
+        print("*", end =" ")
+    print()
 
-# for i in range(1, n + 1):
-#     for space in range(n - i):
-#         print(" ", end="")
-#     for star in range(2 * i - 1):
-#         print("*", end="")
-#     print()
+for i in range(n-1, 0, -1):
+    for spaces in range(n-i):
+        print(" ", end="")
+    for j in range(i):
+        print("*", end =" ")
+    print()
 
-# for i in range(n - 1, 0, -1):
-#     for space in range(n - i):
-#         print(" ", end="")
-#     for star in range(2 * i - 1):
-#         print("*", end="")
-#     print()
+
+# 8.Write a python program to display this table using nested loops.
+
+# 1 2 3 4 5 
+# 6 7 8 9 10 
+# 11 12 13 14 15
+# 16 17 18 19 
+
+n= 4
+num = 1
+for i in range(1, n+1):
+    for j in range(1,6):
+        print(num, end=" ")
+        num += 1
+    print()      

@@ -228,9 +228,374 @@
 #     i += 1
 # print(fac)
 
-def samplefunction():
-    a = 100
-    b = 200
-    c = 300
-    return c 
-samplefunction
+# def samplefunction():
+#     a = 100
+#     b = 200
+#     c = 300
+#     return c 
+# samplefunction
+
+# n = 5
+# for i in range(1, n+1):
+#     for spaces in range(n - i):
+#         print(" ", end="")
+#     for j in range(i):
+#         print("*", end=" ")
+#     print()
+
+# for i in range(n-1,0,-1):
+#     for spaces in range(n - i):
+#         print(" ", end="")
+#     for j in range(i):
+#         print("*", end=" ")
+#     print()
+
+
+
+
+
+# 8.Write a python program to display this table using nested loops.
+
+# 1 2 3 4 5 
+# 6 7 8 9 10 
+# 11 12 13 14 15
+# 16 17 18 19 
+
+# n= 4
+# num = 1
+# for i in range(1, n+1):
+#     for j in range(1,6):
+#         print(num, end=" ")
+#         num += 1
+#     print()        
+
+
+# n = 5 
+# for i in range(1, n+1):
+#     for spaces in range(n-i):
+#         print(" ", end="")
+#     for j in range(i):
+#         print("*", end =" ")
+#     print()
+
+# for i in range(n-1, 0, -1):
+#     for spaces in range(n-i):
+#         print(" ", end="")
+#     for j in range(i):
+#         print("*", end =" ")
+#     print()
+
+
+
+# # 1.
+# def Message():
+#     print("Hi, How are you ....?")
+
+# Message()
+
+# # 2. 
+# def Sum(a,b):
+#     sum = a + b
+#     return("Sum of two numbers: ", sum )
+# print(Sum(2,5))
+
+# # 3. 
+# def ConcatinationOfStrings(name1, name2):
+#     Concat = name1 + name2
+#     return("Concatination of two Names: ", Concat)
+# print(ConcatinationOfStrings("Nas", "eem"))
+
+
+# # 4. 
+# num1 = 8
+# num2 = 10 
+# def Mul(num1, num2):
+#     mul = num1 * num2
+#     return("Multiplication of two numbers: ", mul)
+# print(Mul(num1, num2))
+
+# # 5. 
+# def numbers():
+#     for i in range(1,6):
+#         print(i)
+# numbers()
+
+# # 6. 
+# def Student_Details(name, age):
+#     print("Name:", name)
+#     print("Age:", age)
+# Student_Details(age=21, name="Naseem")
+
+# # 7. 
+# def Factorial(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return n * Factorial(n-1)
+# print(Factorial(5))
+
+# # 8. 
+# x = 10
+
+# def show():
+#     y = 5
+#     print(" Function:", x + y)
+# show()
+
+# # 9. 
+# def Bike(name, model):
+#     print("Brand: ", name, "~" ,"Model: ", model)
+
+# Bike("Royal Enfield", "Himalayan")
+
+# # 10.
+# def info(name, age=18, city="Hyd"):
+#     print(name,age,city)
+
+# info("Naseem")
+# info("Zeena", 22)
+# info("Mairah", 27, "Mumbai")
+
+
+
+# 2. User-Defined Max, Min, Sum (Without Built-ins)
+# **Question:**
+# Write your own functions to calculate:
+
+# * Maximum
+# * Minimum
+# * Sum
+
+# Do NOT use max(), min(), sum().
+
+# lst = list(map(int, input("Enter elements separated by space: ").split()))
+# print("List: ", lst)
+
+# def Max(lst):
+#     max = lst[0]
+#     for i in lst:
+#         if i > max:
+#             max = i
+#     return max
+# print("Maximum: ", Max(lst))
+
+# def Min(lst):
+#     min = lst[0]
+#     for i in lst:
+#         if i < min:
+#             min = i
+#     return min
+# print("Minimum: ", Min(lst))
+
+# def Sum(lst):
+#     sum = 0
+#     for i in lst:
+#         sum+= i
+#     return sum
+# print("Sum : ", Sum(lst))
+
+# **Test Case 1:**
+# Input:
+# [4, 8, 1, 9]
+
+# Expected Output:
+# Maximum: 9
+# Minimum: 1
+# Sum: 22
+
+# **Test Case 2:**
+# Input:
+# [-5, -2, -10]
+
+# Expected Output:
+# Maximum: -2
+# Minimum: -10
+# Sum: -17
+
+# def greet(Name):
+    
+#     msg = "Hello" " "+ Name + "!" +" " "Welcome to Python Class"
+#     return msg
+# print(greet("Sairam"))
+
+
+# def calculate_total(price, quantity):
+#     total = price * quantity
+#     return total
+# print(calculate_total(100, 3))
+
+# **Test Case 1:**
+# Input:
+# create_account("Rahul")
+
+# Expected Output:
+# Account created for Rahul with role User
+
+# **Test Case 2:**
+# Input:
+# create_account("AdminUser", "Admin")
+
+# Expected Output:
+# Account created for AdminUser with role Admin
+
+# def create_account(name, role='user'):
+#     msg = "Account Created For " + name + " " + "With Role " + role
+#     return msg
+# print(create_account("Rahul"))
+# print(create_account("AdminUser", "Admin"))
+
+### 6. Print vs Return (Square)
+# **Question:**
+# Create:
+
+# * One function that prints square
+# * One function that returns square
+
+# **Test Case 1:**
+
+# Input:
+# square_print(5)
+
+# Output:
+# 25
+
+# Input:
+# result = square_return(5)
+# print(result * 10)
+
+# Output:
+# 250
+
+# **Test Case 2:**
+# Input:
+# square_print(3)
+
+# Output:
+# 9
+
+# def square_ret(num):
+#     square = num * num
+#     return(square)
+# print(square_ret(5))
+
+# result = square_ret(5)
+# print(result * 10)
+
+# def add(a, b):
+#     sum = a + b 
+#     return sum
+# print(add(2,3))
+
+# def mul(a, b):
+#     mul = a * b 
+#     return mul
+# print(mul(add(2,3), 4))
+
+# num = list(map(int,input("Enter a list : ").split(",")))
+
+# def count(num):
+#     eve_count = 0 
+#     odd_count = 0
+#     for i in num:
+#         if i % 2 == 0:
+#             eve_count += 1
+#         else:
+#             odd_count += 1
+
+#     return "Even Count: " + str(eve_count) + "\nOdd Count: " + str(odd_count)
+        
+# print(count(num))
+
+# def Palindrome(Name):
+#     if Name == Name[::-1]:
+#         return True
+#     else:
+#         return False
+
+# print(Palindrome("Naseem"))
+# print(Palindrome("madam"))
+
+# def Factorial(num):
+#     fac = 1
+#     i = 1
+#     while i <= num:
+#         fac = fac * i
+#         i += 1
+#     return i
+
+# print(Factorial(5))
+
+
+# def Factorial(num):
+#     if num == 1:
+#         return 1
+#     else:
+#         return  num * Factorial(num - 1)
+
+# print(Factorial(5))
+
+# def fibonacci(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fibonacci(n - 1) + fibonacci(n - 2)
+
+# n = int(input("Enter n: "))
+
+# for i in range(n):
+#     print(fibonacci(i), end=" ")
+
+
+# def sum_of_digits(n):
+#     if n == 0:
+#         return 0
+#     else:
+#         return (n % 10) + sum_of_digits(n//10)
+# print(sum_of_digits(2345))
+
+# def reverse(name):
+#     if len(name) == 0:
+#         return name
+#     else:
+#         return reverse(name[1:]) + name[0]
+# print(reverse("Python"))
+
+# """s[0]   → "p"        (first character)
+# s[1:]  → "ython"    (everything except first character)
+# """
+
+
+
+class Student:
+
+    school_name = "ABC School"   # Class Variable
+
+    def __init__(self, name, marks):
+        self.name = name         # Instance Variable
+        self.marks = marks
+
+    
+    def display(self):
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+
+    
+    @classmethod
+    def change_school(cls, new_school):
+        cls.school_name = new_school
+
+    
+    @staticmethod
+    def is_pass(marks):
+        return marks >= 35
+    
+s1 = Student("Naseem", 80)
+
+s1.display()   
+
+Student.change_school("Oxford")   
+print(Student.school_name)
+
+print(Student.is_pass(80))   
