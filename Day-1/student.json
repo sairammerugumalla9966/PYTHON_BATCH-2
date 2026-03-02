@@ -1,0 +1,12 @@
+[{
+  "Name": "Jyoshna",
+  "Age": 21,
+  "Course": "ECE",
+  "Marks": [85, 90, 86, 80]
+},
+{
+    "Name": "Jyoshna",
+    "Age": 21,
+    "Course": "ECE",
+    "Marks": [ 85, 90, 86, 80 ]
+}]
