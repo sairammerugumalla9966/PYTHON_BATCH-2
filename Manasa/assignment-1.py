@@ -1,4 +1,4 @@
-1.Area of a square
+# 1.Area of a square
 
 side = int(input("enter any value:"))
 
@@ -7,16 +7,16 @@ area = side * side
 print("area of a square is" , area)
 
 
-OUTPUT:
+# OUTPUT:
 
-enter any value:5
-area of a square is 25
+# enter any value:5
+# area of a square is 25
 
 
 =====================================================
 
 
-2.Greatest of among 3 Numbers
+# 2.Greatest of among 3 Numbers
 
 a = int(input("Enter value1:"))
 
@@ -29,18 +29,18 @@ max = max(a , b , c)
 print("Max Number among the given 3 Numbers is" , max)
 
 
-OUTPUT:
+# OUTPUT:
 
-Enter value1:20
-Enter value2:15
-Enter value3:40
-Max Number among the given 3 Numbers is 40
+# Enter value1:20
+# Enter value2:15
+# Enter value3:40
+# Max Number among the given 3 Numbers is 40
 
 
 ========================================================
 
 
-3.Swapping of 2 Numbers
+# 3.Swapping of 2 Numbers
 
 c1 = 2
 
@@ -51,14 +51,14 @@ c1 , c2 = c2,c1
 print(c1 , c2)
 
 
-OUTPUT:
+# OUTPUT:
 
-7 2
+# 7 2
 
 ========================================================
 
 
-4.Area of a Rectangle
+# 4.Area of a Rectangle
 
 length =int(input("enter an value"))
 breadth = int(input("enter an value"))
@@ -66,15 +66,15 @@ breadth = int(input("enter an value"))
 area = length * breadth
 print("Area of a Rectangle:" , area)
 
-OUTPUT:
+# OUTPUT:
 
-enter an value15
-enter an value5
-Area of a Rectangle: 75
+# enter an value15
+# enter an value5
+# Area of a Rectangle: 75
 
 =======================================================
 
-5.Finding the greatest among the given 2 Numbers
+# 5.Finding the greatest among the given 2 Numbers
 
 k = 4
 
@@ -82,13 +82,13 @@ l = 6
 
 print(k>l)
 
-OUTPUT:
+# OUTPUT:
 
-False
+# False
 
 =======================================================
 
-6.Smallest of among given Numbers
+# 6.Smallest of among given Numbers
 
 a1 = int(input("Enter value1:"))
 
@@ -100,16 +100,16 @@ min = min(a1 , b1 , c1)
 
 print("Min Number among the given 3 numbers is" , min)
 
-OUTPUT:
+# OUTPUT:
 
-Enter value1:23
-Enter value2:45
-Enter value3:2
-Min Number among the given 3 numbers is 2
+# Enter value1:23
+# Enter value2:45
+# Enter value3:2
+# Min Number among the given 3 numbers is 2
 
 ===================================================================
 
-7.Accessing the elements and Printing Ṣum of elements in a list
+# 7.Accessing the elements and Printing Ṣum of elements in a list
 
 list = [10 , 20 , 30 , 40 , 50]
 
@@ -125,17 +125,17 @@ print("The sum of the values in a list is",sum(list))
 
 OUTPUT:
 
-[10, 20, 30, 40, 50]
-10
-20
-30
-40
-50
-The sum of the values in a list is 150
+# [10, 20, 30, 40, 50]
+# 10
+# 20
+# 30
+# 40
+# 50
+# The sum of the values in a list is 150
 
 =====================================================================
 
-8.Finding Cube of a given Number
+# 8.Finding Cube of a given Number
 
 
 x = int(input("Enter a value :"))
@@ -144,14 +144,14 @@ cube = x * x * x
 
 print("The cube of a given Number is" , cube)
 
-OUTPUT:
+# OUTPUT:
 
-Enter a value :4
-The cube of a given Number is 64
+# Enter a value :4
+# The cube of a given Number is 64
 
 =====================================================================
 
-9.Finding Simple Interest on Savings
+# 9.Finding Simple Interest on Savings
 
 P = 50000 
 T = 2      
@@ -163,14 +163,14 @@ print("Simple Interest is", SI)
 total_amount = P + SI
 print("Total amount is", total_amount)
 
-OUTPUT:
+# OUTPUT:
 
-Simple Interest is 5000.0
-Total amount is 55000.0
+# Simple Interest is 5000.0
+# Total amount is 55000.0
 
 =====================================================================
 
-10.Finding Final balance after deposit and withdraw
+# 10.Finding Final balance after deposit and withdraw
 
 balance = 20000
 deposit = 7000
@@ -182,13 +182,13 @@ balance = balance - withdraw
 print("Final balance is", balance)
 
 
-OUTPUT:
+# OUTPUT:
 
-Final balance is 24000
+# Final balance is 24000
 
 ====================================================================
 
-11.Finding the data type of a variable
+# 11.Finding the data type of a variable
 
 name = "Manasa"
 print(name)
@@ -196,7 +196,7 @@ print(type(name))
 
 OUTPUT:
 
-Manasa
-<class 'str'>
+# Manasa
+# <class 'str'>
 
 

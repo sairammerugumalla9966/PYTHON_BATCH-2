@@ -466,6 +466,3 @@ result1 = json.loads(result)
 print(result1)
 print(type(result1))
 
-git add .
-git commit -m "Assignments"
-git push origin main
