@@ -3,7 +3,7 @@
 ========================================================================   
 
 
-1.Write a program to demonstrate all arithmetic operators using two user-defined numbers. 
+# 1.Write a program to demonstrate all arithmetic operators using two user-defined numbers. 
 
 p = int(input("enter value for p"))
 print(p)
@@ -45,26 +45,27 @@ print(a)
 a /= 5
 print(a) 
 
-OUTPUT:
+# OUTPUT:
+# ========
+# enter value for p36
+# 36
+# enter value for 6
+# 6
+# 42
+# 30
+# 216
+# 6.0
+# 0
+# 6
+# 36
+# 9
+# 5
+# 45
+# 9.0
 
-enter value for p36
-36
-enter value for 6
-6
-42
-30
-216
-6.0
-0
-6
-36
-9
-5
-45
-9.0
+================================================================================
 
-
-2.Write a program to compare two numbers using relational operators and display the result.
+# 2.Write a program to compare two numbers using relational operators and display the result.
 
 m = int(input("enter value for m"))
 print(m)
@@ -79,22 +80,22 @@ print(m>=n)
 print(m<n)
 print(m<=n)
 
-OUTPUT:
+# OUTPUT:
+# ========
+# enter value for m25
+# 25
+# enter value for n5
+# 5
+# False
+# True
+# True
+# True
+# False
+# False
 
-enter value for m25
-25
-enter value for n5
-5
-False
-True
-True
-True
-False
-False
+=====================================================================
 
-
-3.Explain logical operators (and, or, not) with a truth table and a sample program.
-
+# 3.Explain logical operators (and, or, not) with a truth table and a sample program.
 
 and
 ====
@@ -114,9 +115,9 @@ if marks >= 35 and marks <= 100:
 else:
     print("fail")
 
-OUTPUT:
-
-pass
+# OUTPUT:
+# =======
+# pass
 
   
 
@@ -140,8 +141,9 @@ if marks1>=35 or marks2>=75 :
 else:
     print("failed")
 
-OUTPUT:
-passed atleast one subject
+# OUTPUT:
+# =========
+# passed atleast one subject
 
 not
 ===
@@ -157,8 +159,12 @@ Ex:
 is_raining = False
 print(not is_raining)
 
-OUTPUT:
-True
+# OUTPUT:
+# ========
+# True
+
+=========================================================================
+
 4.Write a program to check whether a number lies between 10 and 50 using logical operators.
 
 number = 25
@@ -169,13 +175,13 @@ if number>10 and number<50 :
 else:
     print("Number does not lie between 10 and 50")
 
-OUTPUT:
+# OUTPUT:
+# ========
+# Number lies between 10 and 50
 
-Number lies between 10 and 50
+==========================================================================
 
-
-
-5.Demonstrate the use of assignment operators (=, +=, -=, *=, /=) with examples.
+# 5.Demonstrate the use of assignment operators (=, +=, -=, *=, /=) with examples.
 
 '=' is used to assign a value to the variable 
 ex: a = 5
@@ -187,8 +193,9 @@ a = 5
 a+=2
 print(a)
 
-OUTPUT:
-7
+# OUTPUT:
+# ==========
+# 7
 
 # '-=' is used to subtract a value to the variable and assigns the result
 # ex:
@@ -197,8 +204,9 @@ a = 5
 a-=3
 print(a)
 
-OUTPUT:
-2
+# OUTPUT:
+# =======
+# 2
 
 # '*=' is used to multiply a value to the variable and assigns the result
 # ex:
@@ -207,54 +215,65 @@ a = 3
 a*=2
 print(a)
 
-OUTPUT:
-6
+# OUTPUT:
+# ========
+# 6
 
-'/=' is used to divide a value to the variable and assigns the result
-ex:
+# '/=' is used to divide a value to the variable and assigns the result
+# ex:
 
 a = 25
 a/=5
 print(a)
 
-OUTPUT:
-5.0
+# OUTPUT:
+# =========
+# 5.0
 
-6.Write a program to check whether a given value exists in a list using membership operators.
+# =============================================================================
+
+# 6.Write a program to check whether a given value exists in a list using membership operators.
 
 vegetables = ["tomato" , "brinjal" , "potato" , "ladiesfinger" ]
 print("potato" in vegetables)
 
-OUTPUT:
-True
+# OUTPUT:
+# ========
+# True
 
-7.What is the difference between == and is operators?
-Write a program to prove it.
+# =================================================================================
 
-'==' is used to compare the values of 2 variables .If 2 values  are same it returns True
-ex:
+# 7.What is the difference between == and is operators?
+# Write a program to prove it.
+
+# '==' is used to compare the values of 2 variables .If 2 values  are same it returns True
+# ex:
 
 a = [10 , 20 , 30]
 b = [10 , 20 , 30]
 print(a==b)
 print(a is b)
 
-OUTPUT:
-True
-False
+# OUTPUT:
+# =========
+# True
+# False
 
-'is' is a identity operator.It is used to compare the memory location of 2 variables.If the memory location of 2 variables are same then it returns True
-ex:
+# 'is' is a identity operator.It is used to compare the memory location of 2 variables.If the memory location of 2 variables are same then it returns True
+# ex:
 x = [10 , 20 , 30]
 y = x
 print(x is y)
 print(x == y)
 
-OUTPUT:
-True
-True
+# OUTPUT:
+# =======
+# True
+# True
 
-8.Write a program to check whether a number is even or odd using operators.
+# ==================================================================================
+
+# 8.Write a program to check whether a number is even or odd using operators.
 
 a = 5
 
@@ -263,10 +282,13 @@ if a%2==0 :
 else:
     print("a is odd number")
 
-OUTPUT:
-a is odd number
+# OUTPUT:
+# ========
+# a is odd number
 
-9.Write a program to calculate the area of a rectangle using arithmetic operators and user input.
+# ============================================================================================
+
+# 9.Write a program to calculate the area of a rectangle using arithmetic operators and user input.
 
 length = int(input("enter a value for length :"))
 print(length)
@@ -277,22 +299,25 @@ print(breadth)
 area = length * breadth
 print(area)
 
-OUTPUT:
-enter a value for length :25
-25
-enter a value for breadth :7
-7
-175
+# OUTPUT:
+# ========
+# enter a value for length :25
+# 25
+# enter a value for breadth :7
+# 7
+# 175
 
-10.Explain operator precedence in Python and write a program showing how precedence affects the result.
+# ===================================================================================================
 
-1.Create a list of 5 student names and:
+# 10.Explain operator precedence in Python and write a program showing how precedence affects the result.
 
-    a)Add one more name
+# 1.Create a list of 5 student names and:
 
-    b)Remove one name
+#     a)Add one more name
 
-    c)Display the final list
+#     b)Remove one name
+
+#     c)Display the final list
 
 
 students = ["manu" , "jyoshu" , "ravi" , "sravani" , "hema"]
@@ -303,26 +328,24 @@ students.remove("sravani")
 
 print(students)
 
-OUTPUT:
-['manu', 'jyoshu', 'ravi', 'sravani', 'hema']
-['manu', 'jyoshu', 'ravi', 'hema', 'pravathi']
+# OUTPUT:
+# ========
+# ['manu', 'jyoshu', 'ravi', 'sravani', 'hema']
+# ['manu', 'jyoshu', 'ravi', 'hema', 'pravathi']
 
+# =================================================================
 
+# 2.Write a program to find the largest and smallest elements in a list without using built-in functions.
 
+# ==================================================================
 
+# 3.Create a tuple with mixed data types and:
 
+#     a)Access elements using indexing
 
-2.Write a program to find the largest and smallest elements in a list without using built-in functions.
+#     b)Explain why tuples are immutable
 
-
-
-3.Create a tuple with mixed data types and:
-
-    a)Access elements using indexing
-
-    b)Explain why tuples are immutable
-
-    c)Convert a tuple into a list, modify an element, and convert it back into a tuple.
+#     c)Convert a tuple into a list, modify an element, and convert it back into a tuple.
 
 a = (5 , 3.5 , "python" , True , None)
 print(a)
@@ -333,38 +356,40 @@ print(a[2])
 print(a[3])
 print(a[4])
 
-OUTPUT:
-(5, 3.5, 'python', True, None)
-5
-3.5
-python
-True
-None
+# OUTPUT:
+# ==========
+# (5, 3.5, 'python', True, None)
+# 5
+# 3.5
+# python
+# True
+# None
 
-(b)Tuples are immutable because tuple cannot be changed once created
-ex:
+# (b)Tuples are immutable because tuple cannot be changed once created
+# ex:
 
 a[1] = "java"
 print(a)
 
-OUTPUT:
-TypeError: 'tuple' object does not support item assignment
+# OUTPUT:
+# ========
+# TypeError: 'tuple' object does not support item assignment
 
 
-(c)
+# (c)
 
 b = list(a)
 b[2] = "java"
 a = tuple(b)
 print(a)
 
-OUTPUT:
-(5, 3.5, 'java', True, None)
+# OUTPUT:
+# ==========
+# (5, 3.5, 'java', True, None)
 
+# ======================================================
 
-
-
-4.Write a program to remove duplicate values from a list using a set.
+# 4.Write a program to remove duplicate values from a list using a set.
 
 a = [10 , 20 , 10 , 30 , 40 , 20 , 30 , 50 , 40]
 print(a)
@@ -372,20 +397,21 @@ print(a)
 my_set = set(a)
 print(my_set)
 
-OUTPUT:
+# OUTPUT:
+# ==========
+# [10, 20, 10, 30, 40, 20, 30, 50, 40]
+# {40, 10, 50, 20, 30}
 
-[10, 20, 10, 30, 40, 20, 30, 50, 40]
-{40, 10, 50, 20, 30}
+# ===============================================================
 
+# 5.Create a dictionary with employee details (id, name, salary).
+# Perform:
 
-5.Create a dictionary with employee details (id, name, salary).
-Perform:
+#     a)Add a new key
 
-    a)Add a new key
-
-    b)Update salary
+#     b)Update salary
     
-    c)Delete a key
+#     c)Delete a key
 
 employee = {
               "id" : 567,
@@ -404,18 +430,16 @@ print(employee)
 del employee["name"]
 print(employee)
 
-OUTPUT:
+# OUTPUT:
+# =========
+# {'id': 567, 'name': 'manasa', 'salary': 50000}
+# {'id': 567, 'name': 'manasa', 'salary': 50000, 'role': 'developer'}
+# {'id': 567, 'name': 'manasa', 'salary': 60000, 'role': 'developer'}
+# {'id': 567, 'salary': 60000, 'role': 'developer'}
 
-{'id': 567, 'name': 'manasa', 'salary': 50000}
-{'id': 567, 'name': 'manasa', 'salary': 50000, 'role': 'developer'}
-{'id': 567, 'name': 'manasa', 'salary': 60000, 'role': 'developer'}
-{'id': 567, 'salary': 60000, 'role': 'developer'}
+# =========================================================================
 
-
-
-
-
-6.Write a program to iterate through a dictionary and print: Keys, Values ,Key-value pairs.
+# 6.Write a program to iterate through a dictionary and print: Keys, Values ,Key-value pairs.
 
 employee = {
              "id" : 567,
@@ -430,14 +454,16 @@ print(employee.keys())
 print(employee.values())
 print(employee.items())
 
-OUTPUT:
+# OUTPUT:
+# ==========
+# {'id': 567, 'name': 'manasa', 'role': 'developer', 'salary': 50000}
+# dict_keys(['id', 'name', 'role', 'salary'])
+# dict_values([567, 'manasa', 'developer', 50000])
+# dict_items([('id', 567), ('name', 'manasa'), ('role', 'developer'), ('salary', 50000)])
 
-{'id': 567, 'name': 'manasa', 'role': 'developer', 'salary': 50000}
-dict_keys(['id', 'name', 'role', 'salary'])
-dict_values([567, 'manasa', 'developer', 50000])
-dict_items([('id', 567), ('name', 'manasa'), ('role', 'developer'), ('salary', 50000)])
+# =============================================================================
 
-7.Declare two sets, perform and display: Union, Intersection, Difference.
+# 7.Declare two sets, perform and display: Union, Intersection, Difference.
 
 a = { 10 , 20 , 12 , 10 , 12 , 30 , 40 , 5 , 6}
 print(a)
@@ -449,17 +475,17 @@ print(a.union(b))
 print(a.intersection(b))
 print(a.difference(b))
 
-OUTPUT:
+# OUTPUT:
+# ========
+# {20, 5, 6, 40, 10, 12, 30}
+# {1, 2, 3, 5, 6, 10, 12}
+# {1, 2, 3, 5, 6, 40, 10, 12, 20, 30}
+# {10, 12, 5, 6}
+# {40, 20, 30}
 
-{20, 5, 6, 40, 10, 12, 30}
-{1, 2, 3, 5, 6, 10, 12}
-{1, 2, 3, 5, 6, 40, 10, 12, 20, 30}
-{10, 12, 5, 6}
-{40, 20, 30}
+# =========================================================================================
 
-8.Write a program to count the frequency of each element in a list using a dictionary.
-
-
+# 8.Write a program to count the frequency of each element in a list using a dictionary.
 
 9.Explain the difference between list, tuple, set, and dictionary with one real-time example each
 
