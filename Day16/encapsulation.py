@@ -63,3 +63,9 @@ class UPI(payment):
 obj=UPI()
 obj.pay(500)
 
+
+
+
+
+
+

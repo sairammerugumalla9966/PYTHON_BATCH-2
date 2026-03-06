@@ -1,0 +1,45 @@
+
+# Database :  is a organised collection of data which is stored electronically 
+
+DBMS and RDBMS
+
+student ---> stuid , stname, course , teacherid 
+teachers ----> teacherid , teachername , suject , class 
+
+
+server ----> databases----->tables , views ----> data (rows and columns)
+
+
+DBMS and             RDBMS
+files ,              tables 
+no relationships  , relationships
+low security        high security 
+no normalization    normalization
+
+
+
+table  ---> rows AND columns 
+
+rows ----> whihch stores the records
+columns ---> which defines its behaviour/ character 
+
+
+primary key ---> the column which uniquely idenfies all the rows
+no null values 
+no duplicates 
+
+
+foreign key ---> creates relationships between two tables  and it refers to primary key in another table 
+
+
+unique key ---> no duplicates , all the rows must be unique 
+primarykey ---> no null 
+
+
+
+
+
+
+
+
+
