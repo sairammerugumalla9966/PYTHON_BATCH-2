@@ -1,0 +1,64 @@
+# web fundamentals 
+
+client ----> user(from where the request is coming )
+
+server ----> which provides information
+
+https://google.com
+
+process : 
+browser(client) ----> http request ---> server(google server)---> http response --->htmlpage---> browser display webpage 
+
+user --> browser--->http request --->internet-->web server---> application(framework)--->database--->http response --->browser shows webpage 
+
+
+Amazon login : 
+
+username 
+password  if correct---> next page else invalid 
+
+
+# HTTP = Hyper Text Transfer Protocol ---> creates communication protocol between client and server 
+HTTP request --> a reuest sent by client to server asking for some information 
+
+HTTP response -->response sent by server to client 
+
+
+HTTP methods 
+
+retrieve data --- GET method 
+send data ---- POST method 
+update data --- PUT method 
+delete data --- DELETE method 
+
+
+HTTP STATUS CODES : 
+
+200 series --- SUCCESS 
+
+400 series --- client error 
+
+
+500 --- sever error 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

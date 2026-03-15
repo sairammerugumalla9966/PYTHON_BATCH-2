@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------------
+## HTML Basics 
+--------------------------------------------------------------------------------------
+
+# Introduction to HTML
+
+HTML = HyperText Markup Language
+    Used to structure webpages
+    Browser reads HTML and displays webpage
+
+HTML works with:
+CSS → Styling
+JavaScript → Functionality
+
+Example website structure:
+
+HTML → Structure
+CSS → Design
+JavaScript → Interactivity
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+# implemetation of headings 
+--------------------------------------------------------------------------------------
+<html>
+<body>
+
+    <head>
+        <title>My Website</title>    ( to give the tittle )
+    </head>
+    
+<h1>Welcome Employees</h1>   (heading size)
+<h1>Get ready for Python fullstack Training program.</h1>     (<h1> = tag)
+
+<h2>Welcome Employees</h2>
+<h2>Get ready for Python fullstack Training program.</h2>
+
+<h3>Welcome Employees</h3>
+<h3>Get ready for Python fullstack Training program.</h3>
+
+<h4>Welcome Employees</h4>
+<h4>Get ready for Python fullstack Training program.</h4>
+
+<h5>Welcome Employees</h5>
+<h5>Get ready for Python fullstack Training program.</h5>
+
+<h6>Welcome Employees</h6>
+<h6>Get ready for Python fullstack Training program.</h6>
+
+</body>
+</html>
+
+-------------------------------------------------------------------------------------
+# tittle demonstration 
+--------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>         (tittle Shows in browser tab)
+</head>
+
+<body>
+
+    <h1>Main Title</h1>
+    <h2>Sub Title</h2>               (headings)
+    <h3>Section Title</h3> 
+
+    <p>This is my first webpage.</p> (paragraph)
+    <p>Python is used for web development.</p>
+    <p>Flask is a lightweight framework.</p>
+    <p>This training covers frontend and backend.</p>
+
+
+</body>
+</html>
+-----------------------------------------------------------
+
