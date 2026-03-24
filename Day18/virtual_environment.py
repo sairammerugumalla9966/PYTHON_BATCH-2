@@ -4,6 +4,7 @@
 # how to create virtual environment ???
 
 # python -m venv nameofvirtualenv
+# python -m venv sai_venv
 
 # source sai_venv/scripts/activate     or    sai_venv\scripts\activate 
 
